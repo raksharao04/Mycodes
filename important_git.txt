@@ -1,0 +1,42 @@
+git init
+    to initialize new repo locally
+git status
+
+
+git add file1 file2     to add to staging area (particular files)
+git add .        to add to staging area (all files)
+
+ 
+git commit -m "Added a new file by developer 1"
+
+git log        to view the commits
+
+ 
+
+Create a remote repo and sync our local repo with remote.
+
+.gitingnore file
+
+
+*.class
+description.txt
+/src/des/.settings
+*.jar
+
+ 
+git remote add origin https://github.com/akilagithub/FirstRepo5Feb.git
+git remote set-url origin https://github.com/akilagithub/newFeb.git
+git remote rename origin myurl
+
+git remote -v        to view the url
+
+git push -u origin master
+git push --set-upstream origin master
+
+
+git config --local user.name "Raksha Rao"
+git config --global user.name "Raksha Rao"
+git config --system user.name "Raksha Rao"
+
+git config --list
+git config --global --list
